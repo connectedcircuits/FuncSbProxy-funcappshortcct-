@@ -1,0 +1,13 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "HttpEndpoint": "https://your-endpoint.com/api/messages",
+    "ServiceBusConnection": "<add your service bus connection string>",
+    "StorageQueueConnection": "<add your storage account connection string>",
+    "StorageQueueName": "funcstatus-config",
+    "ResourceGroupName": "<Azure resource group name>",
+    "DisableFuncPeriodMin": 10
+  }
+}

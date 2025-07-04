@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncSbProxy", "FuncSbProxy.csproj", "{0E0672E2-38F1-42FA-9325-6D0348B8DF7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E0672E2-38F1-42FA-9325-6D0348B8DF7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E0672E2-38F1-42FA-9325-6D0348B8DF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E0672E2-38F1-42FA-9325-6D0348B8DF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E0672E2-38F1-42FA-9325-6D0348B8DF7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA5FCB45-AFA7-4FC0-8530-082D03AB4E84}
+	EndGlobalSection
+EndGlobal
