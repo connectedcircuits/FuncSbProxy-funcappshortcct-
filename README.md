@@ -24,9 +24,9 @@ This project demonstrates an Azure Function App that acts as a proxy between Azu
 - `DisableFuncPeriodMin`: Duration in minutes to disable the function when errors occur
 
 ## Example Use Case
-This solution serves as a practical example of how to implement the FuncTriggerManager pattern to improve resilience in serverless architectures. By temporarily disabling triggers when downstream systems fail, you can prevent excessive retry attempts and reduce costs.
+This solution serves as a practical example of how to send a control message to the FuncTriggerManager application to improve resilience in serverless architectures. By temporarily disabling triggers when downstream systems fail, you can prevent excessive retry attempts and reduce costs.
 
 ## Getting Started
 1. Clone this repository
-2. Update the connection strings in `local.settings.json`
+2. Update the connection strings in `prd.settings.json`
 3. Run the function locally using the Azure Functions Core Tools
