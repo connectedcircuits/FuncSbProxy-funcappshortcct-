@@ -1,7 +1,7 @@
 # FuncSbProxy
 
 ## Overview
-This project demonstrates an Azure Functions application that acts as a proxy between Azure Service Bus and HTTP endpoints. It shows how to implement a short circuit pattern using the FuncTriggerManager to temporarily disable a function trigger when errors occur.
+This project demonstrates an Azure Function App that acts as a proxy between Azure Service Bus and HTTP endpoints. It shows how to implement the short circuit pattern using the FuncTriggerManager (https://github.com/connectedcircuits/funcappshortcct) to temporarily disable a function trigger when errors occur.
 
 ## Key Features
 - Receives messages from Azure Service Bus queues
